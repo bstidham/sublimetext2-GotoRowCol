@@ -21,7 +21,7 @@ Without this plugin installed, the "goto row" hotkey `ctrl` + `g` brings up a pr
 
 The "goto row" functionality is still available through the `ctrl` + `shift` + `p` window command. To use it with this plugin installed, do the following:
 
-* use the window command `ctrl` + `shift` + `p`
+* use the window command `ctrl` + `p`
 * a prompt will appear at the top of the sublime text window
 * type a colon `:` plus the row you want to navigate to
 * press `ENTER`
