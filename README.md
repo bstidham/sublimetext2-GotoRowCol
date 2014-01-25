@@ -55,3 +55,5 @@ r1.01
   * notes     https://github.com/bstidham/sublimetext2-GotoRowCol/issues/1
    * Parenthesized print for compatibility: 
      * print without parens is only supported in sublime text 2 (python 2). sublime text 3 (python 3) requires that print be parenthesized.
+   * Added file Default.sublime-keymap
+     * replaces `ctrl` + `g` "goto row" functionality with GotoRowCol functionality
