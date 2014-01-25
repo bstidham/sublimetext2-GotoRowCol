@@ -6,12 +6,27 @@ Places the cursor at the specified row and column
 Usage
 =====
 
-* use the window command `ctrl` + `shift` + `p` 
-* type `GotoRowCol`
-* press `ENTER`
+* use the hotkey `ctrl` + `g`
+ * alternatively, use the window command `ctrl` + `shift` + `p` 
+ * and type `GotoRowCol`
+ * press `ENTER`
 * an input box will appear at the bottom of the sublime text window with two initial values populated `1 1`. The first value represents the `row`, the second value represents the `column`. they are `1 based` 
 * enter your desired coordinates (e.g. `26 32` for `row 26` `col 32`)
 * press `ENTER`
+
+Replacing "goto row" hotkey
+===========================
+
+Without this plugin installed, the "goto row" hotkey `ctrl` + `g` brings up a prompt at the top of the sublime text window with a colon in it indicating that you can input a row number to navigate the cursor and view to that row. The included file `Default.sublime-keymap` replaces this behavior with the "GotoRowCol" functionality. Pressing `ctrl` + `g` will now result in the behavior described in the `Usage` section of this README. 
+
+The "goto row" functionality is still available through the `ctrl` + `shift` + `p` window command. To use it with this plugin installed, do the following:
+
+* use the window command `ctrl` + `shift` + `p`
+* a prompt will appear at the top of the sublime text window
+* type a colon `:` plus the row you want to navigate to
+* press `ENTER`
+* example: `:38` then `ENTER` will take you to line 38 in the text file
+
 
 Behavior
 ========
@@ -31,4 +46,12 @@ Revision History
 r1.0
   * developer bstidham (Bill Stidham)
   * date      01/22/2014
-  * notes     initial creation. created in response to [this StackOverflow qestion](http://stackoverflow.com/questions/21283763/sublime-text-goto-line-and-column/21288455#21288455)
+  * notes     
+   * initial creation. created in response to [this StackOverflow qestion](http://stackoverflow.com/questions/21283763/sublime-text-goto-line-and-column/21288455#21288455)
+
+r1.01
+  * developer bstidham (Bill Stidham)
+  * date      01/24/2014
+  * notes     https://github.com/bstidham/sublimetext2-GotoRowCol/issues/1
+   * Parenthesized print for compatibility: 
+     * print without parens is only supported in sublime text 2 (python 2). sublime text 3 (python 3) requires that print be parenthesized.
