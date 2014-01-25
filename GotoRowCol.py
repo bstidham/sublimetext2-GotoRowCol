@@ -34,9 +34,9 @@ class GotoRowColCommand(sublime_plugin.TextCommand):
 		if row > -1 and col > -1:
 			# col may be greater than the row length
 			col = min(col, len(self.view.substr(self.view.full_line(self.view.text_point(row, 0))))-1)
-			print("INFO: Calculated: " + str({"row": row, "col": col}))
+			print("INFO: Calculated: " + str({"row": row, "col": col})) # r1.01 (->)
 			self.view.sel().clear()
 			self.view.sel().add(sublime.Region(self.view.text_point(row, col)))
 			self.view.show(self.view.text_point(row, col))
 		else:
-			print("ERROR: row or col are less than zero")
+			print("ERROR: row or col are less than zero")               # r1.01 (->)
