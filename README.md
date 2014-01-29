@@ -76,3 +76,4 @@ r1.02
      * if 2 then it goes to row col accordingly
    * commented out the `ctrl` + `g` hotkey in Default.sublime-keymap
      * will add instructions to the README for enabling this (by simply uncommenting it)
+  * added `README.txt` and `messages.json` conaining the `USAGE` and `Replacing "goto row" hotkey` sections from `README.mg`
