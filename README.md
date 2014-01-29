@@ -6,10 +6,10 @@ Places the cursor at the specified row and column
 Usage
 =====
 
-* use the hotkey `ctrl` + `g` (if enabled)
- * otherwise, use the window command `ctrl` + `shift` + `p` 
- * and type `GotoRowCol`
- * press `ENTER`
+* otherwise, use the window command `ctrl` + `shift` + `p` 
+* and type `GotoRowCol`
+* press `ENTER`
+ * alternatively, use the hotkey `ctrl` + `g` (if enabled)
 * an input box will appear at the bottom of the sublime text window with two initial values populated `1 1`. The first value represents the `row`, the second value represents the `column`. they are `1 based` 
 * enter your desired coordinates (e.g. `26 32` for `row 26` `col 32`)
  * you can also enter a row by itself without the column. this will be interpreted as "go to row n col 1"
