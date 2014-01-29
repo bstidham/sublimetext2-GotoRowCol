@@ -57,3 +57,16 @@ r1.01
      * print without parens is only supported in sublime text 2 (python 2). sublime text 3 (python 3) requires that print be parenthesized.
    * Added file Default.sublime-keymap
      * replaces `ctrl` + `g` "goto row" functionality with GotoRowCol functionality
+
+r1.02
+  * developer bstidham (Bill Stidham)
+  * date      01/28/2014
+  * notes     
+   * added file GotoRowCol.sublime.settings
+     * added setting to GotoRowCol.sublime.settings: "gtrc_prompt_default": "1 1"
+     * if this setting is not found, a default value of "1 1" is hard coded
+   * modified GotoRowCol.py PromptGotoRowColCommand.gotoRowCol() to check the number of integers supplied
+     * if 1 then it uses the value as the row number and navigates to the first column
+     * if 2 then it goes to row col accordingly
+   * commented out the `ctrl` + `g` hotkey in Default.sublime-keymap
+     * will add instructions to the README for enabling this (by simply uncommenting it)
