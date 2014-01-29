@@ -20,7 +20,7 @@ from: //{ "keys": ["ctrl+g"], "command": "prompt_goto_row_col", "args": {} }
 
 to: { "keys": ["ctrl+g"], "command": "prompt_goto_row_col", "args": {} }
 
-The "goto row" functionality will still be available through the ctrl + shift + p window command if you enable this hotkey. To use it this method of invoking the "goto row" functionality, do the following:
+The "goto row" functionality will still be available through the ctrl + p window command if you enable this hotkey. To use it this method of invoking the "goto row" functionality, do the following:
 
 use the window command ctrl + p
  * a prompt will appear at the top of the sublime text window
