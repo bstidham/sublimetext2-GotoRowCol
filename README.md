@@ -6,7 +6,7 @@ Places the cursor at the specified row and column
 Usage
 =====
 
-* otherwise, use the window command `ctrl` + `shift` + `p` 
+* use the window command `ctrl` + `shift` + `p` 
 * and type `GotoRowCol`
 * press `ENTER`
  * alternatively, use the hotkey `ctrl` + `g` (if enabled)
