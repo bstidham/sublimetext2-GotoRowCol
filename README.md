@@ -33,6 +33,12 @@ The "goto row" functionality will still be available through the `ctrl` + `shift
 * press `ENTER`
 * example: `:38` then `ENTER` will take you to line 38 in the text file
 
+Settings
+========
+
+file `Packages/GotoRowCol/GotoRowCol.sublime-settings` contains the following settings
+
+* `gtrc_prompt_default` (default: `"1 1"`) - Controls the default prompt text
 
 Behavior
 ========
