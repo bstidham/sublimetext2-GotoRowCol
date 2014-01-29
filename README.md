@@ -67,7 +67,7 @@ r1.01
 r1.02
   * developer bstidham (Bill Stidham)
   * date      01/28/2014
-  * notes     
+  * notes     in response to https://github.com/bstidham/sublimetext2-GotoRowCol/issues/2
    * added file GotoRowCol.sublime.settings
      * added setting to GotoRowCol.sublime.settings: "gtrc_prompt_default": "1 1"
      * if this setting is not found, a default value of "1 1" is hard coded
