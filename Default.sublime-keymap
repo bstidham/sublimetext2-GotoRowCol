@@ -1,3 +1,0 @@
-[
-	{ "keys": ["ctrl+g"], "command": "prompt_goto_row_col", "args": {} }
-]
